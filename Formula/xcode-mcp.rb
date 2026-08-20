@@ -17,8 +17,6 @@ class XcodeMcp < Formula
   head "https://github.com/vexornp/XcodeMcp.git", branch: "main"
 
   depends_on "rust" => :build
-  on_macos do
-    depends_on "xcodebuild" => :test
   end
 
   def install
