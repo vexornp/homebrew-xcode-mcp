@@ -1,8 +1,18 @@
+# This formula is intended for a Homebrew tap repo (homebrew-xcode-mcp).
+# Copy this file to Formula/xcode-mcp.rb in the tap repo.
+#
+# Users install via:
+#   brew tap vexornp/xcode-mcp
+#   brew install xcode-mcp
+#
+# Or one-liner:
+#   brew install vexornp/xcode-mcp/xcode-mcp
+
 class XcodeMcp < Formula
   desc "MCP server that drives xcodebuild and parses build diagnostics"
   homepage "https://github.com/vexornp/XcodeMcp"
-  url "https://github.com/vexornp/XcodeMcp/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "bd9861c83f0d186cb92d85e1fdc437783fdaedd80d1d53a72162db2288290430"
+  url "https://github.com/vexornp/XcodeMcp/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "3a4b6a0dd9f4a97b93c320c767a4c03ffac9173fd1219433816d4591ed2e8c4d"
   license "MIT"
   head "https://github.com/vexornp/XcodeMcp.git", branch: "main"
 
